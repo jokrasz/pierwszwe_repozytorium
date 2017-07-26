@@ -1,17 +1,30 @@
 {
-  "name": "projekt_grunt",
+  "name": "pierwsze_repozytorium",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
+    "browser-sync-webpack-plugin": "^1.2.0",
     "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-imagemin": "^2.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^2.0.0"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jokrasz/pierwszwe_repozytorium.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jokrasz/pierwszwe_repozytorium/issues"
+  },
+  "homepage": "https://github.com/jokrasz/pierwszwe_repozytorium#readme"
 }
